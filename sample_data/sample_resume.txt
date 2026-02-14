@@ -1,0 +1,86 @@
+JOHN ALEXANDER SINGH
+San Francisco, California | john.singh@email.com | (555) 123-4567 | LinkedIn: /in/johnsingh
+
+PROFESSIONAL SUMMARY
+Experienced Senior Python Developer with 6 years of professional experience building scalable microservices and APIs. Proven expertise in FastAPI, Django, and Python frameworks with strong background in cloud technologies and containerization. Skilled in database optimization, system design, and leading development teams.
+
+PROFESSIONAL EXPERIENCE
+
+Senior Python Developer | TechCorp Solutions, San Francisco
+June 2021 - Present (2.5 years)
+- Designed and implemented 15+ microservices using FastAPI handling 50,000+ requests/day
+- Led migration of monolithic application to Kubernetes-based microservices architecture
+- Optimized PostgreSQL queries resulting in 40% improvement in API response times
+- Implemented Redis caching layer reducing database load by 60%
+- Mentored team of 5 junior developers and conducted weekly code reviews
+- Built comprehensive CI/CD pipeline using Jenkins and Docker
+- Implemented automated testing achieving 85% code coverage with pytest
+- Collaborated with DevOps team for AWS infrastructure management and optimization
+
+Python Developer | DataFlow Inc, Mountain View
+February 2019 - May 2021 (2.3 years)
+- Developed RESTful APIs using Django and Django REST Framework processing 1M+ transactions daily
+- Implemented MongoDB integration for NoSQL data storage and retrieval
+- Created Python scripts for ETL processes handling large datasets
+- Configured and managed Docker containers for application deployment
+- Participated in agile sprint planning and daily stand-ups
+- Troubleshot and resolved production issues with minimal downtime
+- Documented API endpoints and created technical specifications
+
+Junior Python Developer | StartupXYZ, Palo Alto
+August 2017 - January 2019 (1.5 years)
+- Developed features using Python 3 and Flask framework
+- Assisted in database design and SQL query optimization
+- Created unit tests using unittest framework
+- Learned version control with Git and GitHub workflows
+- Collaborated with QA team for bug tracking and resolution
+
+TECHNICAL SKILLS
+
+Languages: Python 3.7+, SQL, JavaScript, Bash, Java
+Frameworks: FastAPI, Django, Flask, Django REST Framework
+Databases: PostgreSQL (Advanced), MongoDB, MySQL, Redis
+Cloud & DevOps: AWS (EC2, S3, RDS, Lambda), Docker, Kubernetes, Jenkins
+Tools: Git, GitHub, JIRA, Docker Compose, Nginx, Celery
+Testing: pytest, unittest, Mock, Selenium
+APIs: REST API Design, GraphQL, OpenAPI/Swagger
+Data Processing: Pandas, NumPy, SQLAlchemy ORM
+Monitoring: ELK Stack, DataDog, New Relic
+
+EDUCATION
+
+Bachelor of Science in Computer Science
+University of California, Berkeley | Graduation: May 2017
+Relevant Coursework: Data Structures, Algorithms, Database Systems, Software Engineering
+
+CERTIFICATIONS & AWARDS
+- AWS Certified Solutions Architect (Associate) - 2021
+- Docker Certified Associate - 2020
+- Employee of the Month (TechCorp) - 2 times (2022, 2023)
+
+PROJECTS & ACHIEVEMENTS
+
+E-Commerce Microservices Platform (FastAPI + Kubernetes)
+- Architected and deployed complete microservices platform for e-commerce
+- Implemented payment processing, inventory management, and order fulfillment services
+- Reduced deployment time from 4 hours to 15 minutes using Kubernetes
+- Achieved 99.9% uptime utilizing container orchestration
+
+Real-time Analytics Dashboard (Django + Elasticsearch)
+- Built real-time analytics platform processing 100K events per minute
+- Implemented Elasticsearch integration for fast data retrieval
+- Created intuitive Python backend for aggregation and reporting
+- Reduced query response time from 5s to 500ms
+
+Legacy System Modernization (Python Refactoring)
+- Led initiative to refactor legacy Python codebase to modern FastAPI
+- Improved code maintainability and reduced technical debt by 50%
+- Implemented comprehensive test suite for regression prevention
+- Successfully migrated 200+ endpoints with zero production outages
+
+ADDITIONAL INFORMATION
+- Open source contributor (GitHub profile with 50+ stars)
+- Fluent in Python, English, and Hindi
+- Regular speaker at Python development meetups
+- Passionate about system design and scalability
+- Strong problem-solving and communication skills

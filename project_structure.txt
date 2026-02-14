@@ -1,0 +1,27 @@
+resume-screening-system/
+│
+├── backend/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── config.py
+│   ├── document_processor.py
+│   ├── embedding_generator.py
+│   ├── similarity_calculator.py
+│   └── models.py
+│
+├── frontend/
+│   └── app.py
+│
+├── utils/
+│   ├── __init__.py
+│   ├── file_handler.py
+│   └── logger.py
+│
+├── requirements.txt
+├── .env.example
+├── README.md
+├── SETUP_GUIDE.md
+├── DEPLOYMENT.md
+└── sample_data/
+    ├── sample_job_description.txt
+    └── sample_resume.txt

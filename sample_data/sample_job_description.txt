@@ -1,0 +1,58 @@
+Senior Python Developer Position
+
+Location: San Francisco, CA (Remote Available)
+Salary: $120,000 - $160,000/year
+Experience Required: 5+ years
+
+About the Role:
+We are looking for an experienced Senior Python Developer to join our growing engineering team. You will work on building scalable, high-performance APIs and microservices that power our platform.
+
+Key Responsibilities:
+- Design and develop robust Python applications using FastAPI and Django
+- Build and maintain RESTful APIs and microservices
+- Work with PostgreSQL and MongoDB databases
+- Implement caching strategies using Redis
+- Deploy applications using Docker and Kubernetes
+- Write clean, maintainable, and well-tested code
+- Participate in code reviews and mentor junior developers
+- Collaborate with DevOps team for CI/CD pipeline optimization
+
+Required Skills:
+- 5+ years of professional Python development experience
+- Strong proficiency in FastAPI or Django frameworks
+- Experience with relational databases (PostgreSQL, MySQL)
+- Knowledge of Docker and containerization
+- Kubernetes orchestration experience
+- AWS or cloud platform experience
+- Git version control
+- Understanding of REST API design principles
+- Experience with automated testing (pytest, unittest)
+- SQL optimization and query writing
+
+Preferred Qualifications:
+- Experience with machine learning frameworks
+- GraphQL API development
+- Elasticsearch or similar search technologies
+- Celery task queue implementation
+- Message queue systems (RabbitMQ, Kafka)
+- Google Cloud Platform or Azure experience
+- DevOps practices and CI/CD pipeline
+- Agile/Scrum methodology
+
+Technical Stack:
+- Backend: Python 3.9+, FastAPI, Django, Flask
+- Databases: PostgreSQL, MongoDB, Redis
+- DevOps: Docker, Kubernetes, Jenkins
+- Cloud: AWS (EC2, S3, RDS), Google Cloud
+- Monitoring: ELK Stack, DataDog, New Relic
+
+What We Offer:
+- Competitive salary and benefits
+- Remote work flexibility
+- Professional development opportunities
+- Collaborative and innovative work environment
+- Health insurance and retirement plans
+- Stock options for full-time employees
+
+How to Apply:
+Submit your resume, portfolio, and GitHub profile to careers@company.com

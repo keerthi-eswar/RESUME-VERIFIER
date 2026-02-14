@@ -1,0 +1,59 @@
+version: '3.8'
+
+services:
+  # Backend API Service
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: resume-screening-api
+    ports:
+      - "8000:8000"
+    environment:
+      - PORT=8000
+      - HOST=0.0.0.0
+      - EMBEDDING_MODEL=all-MiniLM-L6-v2
+      - DEBUG=False
+      - ENVIRONMENT=production
+    volumes:
+      - ./backend:/app/backend
+      - ./logs:/app/logs
+    command: python -m backend.main
+    networks:
+      - resume-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  # Frontend Service
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.streamlit
+    container_name: resume-screening-ui
+    ports:
+      - "8501:8501"
+    environment:
+      - API_URL=http://backend:8000
+      - STREAMLIT_SERVER_PORT=8501
+      - STREAMLIT_SERVER_ADDRESS=0.0.0.0
+      - STREAMLIT_LOGGER_LEVEL=info
+    volumes:
+      - ./frontend:/app/frontend
+    depends_on:
+      backend:
+        condition: service_healthy
+    command: streamlit run frontend/app.py
+    networks:
+      - resume-network
+
+networks:
+  resume-network:
+    driver: bridge
+
+volumes:
+  logs:
+    driver: local

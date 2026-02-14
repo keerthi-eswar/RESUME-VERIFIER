@@ -1,0 +1,35 @@
+# Core FastAPI and Async
+fastapi
+uvicorn
+python-dotenv
+
+# Document Processing
+PyPDF2
+python-docx
+
+# NLP and Machine Learning
+sentence-transformers
+numpy
+scikit-learn
+torch
+
+# Frontend
+streamlit
+requests
+pandas
+
+# Pydantic for data validation
+pydantic
+pydantic-settings
+
+# Logging and monitoring
+python-json-logger
+
+# Testing
+pytest
+pytest-asyncio
+httpx
+
+# Utilities
+python-multipart
+aiofiles
